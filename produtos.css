@@ -8,6 +8,7 @@ header{
 	position: relative;
 	margin: auto;
 }
+
 nav{
 	position: absolute;
 	top: 110px;
@@ -25,6 +26,11 @@ nav a{
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+nav a:hover{
+	color: goldenrod;
+	text-decoration: underline;
 }
 
 .produtos{
@@ -47,6 +53,14 @@ nav a{
 .produtos h2{
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.produtos li:hover{
+	border-color: goldenrod;
+}
+
+.produtos li:active{
+	border-color: #000000;
 }
 
 .produtos-descricao{
