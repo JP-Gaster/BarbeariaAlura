@@ -5,6 +5,7 @@
 .principal{
 	background: antiquewhite;
 	padding: 30px;
+	font-size: 20px;
 }
 
 .titulo-centralizado {
@@ -24,12 +25,15 @@ em strong {
 }
 
 .itens {
+	font-size: 20px;
+	display: inline-block;
 	font-style: italic
 }
 
 .beneficios {
-	background: #FFFFFF;
+	background: antiquewhite;
 	padding: 20px;
+	font-size: 30px;
 }
 
 ul {
