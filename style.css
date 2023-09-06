@@ -114,14 +114,40 @@ form label{
 	margin: 8px;
 }
 
-form input-padrao{
+form .input-padrao{
 	display: block;
 	margin: 0 0 20px 0;
 	padding: 8px 50px;
 	width: 50%;
+	transition: 0.3s all;
 }
 
 textarea{
 	margin: 0 0 20px 0;
-	padding: 10px 30px;
+	padding: 10px 28px;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 5px;
+	background-color: antiquewhite;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.3s all;
+}
+
+.enviar:hover{
+	background-color: tan;
+	color: white;
+	transform: scale(1.15);
+}
+
+.enviar:active{
+	transform: scale(1);
+	background-color: antiquewhite;
+	color: black;
 }

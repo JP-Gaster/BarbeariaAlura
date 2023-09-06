@@ -24,16 +24,16 @@
 		<main>
 			<form action="">
 				<label for="nomesobrenome">Nome e Sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao">
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Digite seu nome completo">
 
 				<label for="email">Email</label>
-				<input type="email" id="email" class="input-padrao">
+				<input type="email" id="email" class="input-padrao" required placeholder="manuelgomes@dominio.com.br">
 
 				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao">
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="+(XX) XX XXXXX-XXXX">
 
 				<label for="mensagem">Digite sua mensagem:</label>
-				<textarea name="mensagem" id="mensagem" cols="62" rows="10"></textarea>
+				<textarea name="mensagem" id="mensagem" cols="62" rows="10" placeholder="Digite sua opinião"></textarea>
 
 				<div>
 					<label for="contato">Como prefere nosso contato?</label>
@@ -46,10 +46,10 @@
 	
 				</div>
 
-				<label for="">Gostaria de receber nossas novidades por e-mail?</label>
+				<label <input class="checkbox" for="">Gostaria de receber nossas novidades por e-mail?</label>
 				<input type="checkbox">
 
-				<input type="submit" value="Cique aqui">
+				<input type="submit" class="enviar" value="Clique aqui">
 			</form>
 			
 		</main>
