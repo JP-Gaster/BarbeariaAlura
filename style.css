@@ -152,3 +152,18 @@ textarea{
 	background-color: antiquewhite;
 	color: black;
 }
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background-color: antiquewhite;
+	color: black;
+	font-weight: bold;
+}
+
+td{
+	border: 2px solid black;
+	padding: 15px 10px;
+}
